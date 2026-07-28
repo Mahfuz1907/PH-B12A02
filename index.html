@@ -20,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       .inter {
         font-family: "Inter", sans-serif;
@@ -31,5 +32,25 @@
     </style>
     <title>Flower Market</title>
   </head>
-  <body></body>
+  <body class="m-0 p-0">
+    <!-- nav section -->
+    <nav
+      class="mx-[150px] mt-[30px] flex flex-row justify-between items-center"
+    >
+      <img src="./assets/logo.png" alt="" />
+      <div
+        class="flex flex-row justify-between items-center gap-12 inter text-base text-[#8987a1] font-normal"
+      >
+        <a href="#" class="text-[#252432] font-bold">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a
+          href="#"
+          class="flex flex-row justify-between items-center gap-[10px]"
+          ><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a
+        >
+      </div>
+    </nav>
+    <!-- nav section -->
+  </body>
 </html>
