@@ -252,19 +252,23 @@
 
     <!-- deals section -->
     <section
-      class="flex flex-col justify-between items-center gap-[129px] mx-[150px] mb-[120px]"
+      class="flex flex-col justify-between items-center gap-[55px] sm:gap-[129px] mx-4 sm:mx-[150px] mb-10 sm:mb-[120px]"
     >
       <div class="flex flex-col justify-between items-center gap-4">
-        <h2 class="noto font-bold text-[50px]">
+        <h2 class="noto font-bold text-[24px] sm:text-[50px]">
           <span class="text-[#e95a08]">Latest</span> Deals
         </h2>
-        <p class="inter text-[#00000080] font-normal text-[22px] text-center">
+        <p
+          class="inter text-[#00000080] font-normal text-[14px] sm:text-[22px] text-center"
+        >
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
       </div>
-      <div class="text-white text-center grid grid-cols-3 gap-6 w-full">
+      <div
+        class="text-white text-center grid grid-cols-1 sm:grid-cols-3 gap-6 w-full"
+      >
         <div
           class="bg-[url(./assets/deal-bloom.png)] bg-cover p-[60px] rounded-xl flex flex-col justify-center items-center gap-[26px]"
         >
@@ -274,9 +278,11 @@
           >
         </div>
         <div
-          class="bg-[url(./assets/deal-zabo.png)] bg-cover p-[60px] rounded-xl col-span-2 row-span-2 flex flex-col justify-center items-center gap-[26px]"
+          class="bg-[url(./assets/deal-zabo.png)] bg-cover p-[60px] rounded-xl sm:col-span-2 sm:row-span-2 flex flex-col justify-center items-center gap-[26px]"
         >
-          <h4 class="noto font-bold text-[40px]">25% Off | Zabo Plant</h4>
+          <h4 class="noto font-bold text-[20px] sm:text-[40px]">
+            25% Off | Zabo Plant
+          </h4>
           <a href="#" class="inter font-semibold text-3xl underline"
             >Shop Now</a
           >
@@ -295,9 +301,9 @@
 
     <!-- bunch section -->
     <section
-      class="bg-[url(./assets/news-letter-bg.png)] px-[305px] py-[200px] bg-no-repeat bg-cover flex flex-col justify-center items-center gap-6"
+      class="bg-[url(./assets/news-letter-bg.png)] px-[30px] sm:px-[305px] py-[70px] sm:py-[200px] bg-no-repeat bg-cover flex flex-col justify-center items-center gap-6"
     >
-      <h2 class="noto text-white text-[50px] font-bold">
+      <h2 class="noto text-white text-[20px] sm:text-[50px] font-bold">
         Join the colorful Bunch
       </h2>
       <div class="flex flex-row justify-center items-center gap-0">
@@ -306,10 +312,10 @@
           name="email"
           id="email"
           placeholder="Write email"
-          class="px-5 py-2 bg-white w-[644px] h-[50px]"
+          class="px-5 py-2 bg-white w-[218px] sm:w-[644px] h-[50px]"
         />
         <button
-          class="bg-[#e95a0b] px-[50px] py-[14px] text-white inter text-base font-semibold"
+          class="bg-[#e95a0b] px-[20px] sm:px-[50px] py-[13px] text-white inter text-base font-semibold hover:border hover:bg-white hover:text-[#e95a0b] cursor-pointer"
         >
           Subscribe
         </button>
@@ -319,11 +325,11 @@
 
     <!-- footer section -->
     <footer
-      class="bg-white px-[150px] py-[50px] grid grid-cols-4 justify-between items-start gap-[110px]"
+      class="bg-white px-4 sm:px-[150px] py-[50px] grid grid-cols-1 sm:grid-cols-4 justify-between items-start gap-[32px] sm:gap-[110px]"
     >
       <div class="flex flex-col justify-start items-start gap-4">
-        <img src="./assets/logo.png" alt="" />
-        <p class="inter text-[#00000080] font-normal text-[22px]">
+        <img src="./assets/logo.png" alt="" class="w-[180px] h-[109px]" />
+        <p class="inter text-[#00000080] font-normal text-base sm:text-[22px]">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop.
         </p>
@@ -341,7 +347,7 @@
         ><a href="#">Privacy Policy</a><a href="#">Terms of Service</a
         ><a href="#">Help Center</a>
       </div>
-      <div class="flex flex-row justify-between items-center gap-6">
+      <div class="flex flex-row justify-start items-center gap-6">
         <img src="./assets/icon-linkedin.png" alt="" /><img
           src="./assets/icon-twitter.png"
           alt=""
