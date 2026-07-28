@@ -36,18 +36,22 @@
   <body class="m-0 p-0">
     <!-- nav section -->
     <nav
-      class="mx-[150px] mt-[30px] mb-[120px] flex flex-row justify-between items-center"
+      class="mx-4 sm:mx-[150px] mt-4 sm:mt-[30px] mb-7 sm:mb-[120px] flex flex-row justify-between items-center"
     >
-      <img src="./assets/logo.png" alt="" />
+      <img
+        src="./assets/logo.png"
+        alt=""
+        class="w-[63px] sm:w-[135px] h-[38px] sm:h-[82px]"
+      />
       <div
         class="flex flex-row justify-between items-center gap-12 inter text-base text-[#8987a1] font-normal"
       >
-        <a href="#" class="text-[#252432] font-bold">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About Us</a>
+        <a href="#" class="text-[#252432] font-bold hidden sm:flex">Home</a>
+        <a href="#" class="hidden sm:flex">Shop</a>
+        <a href="#" class="hidden sm:flex">About Us</a>
         <a
           href="#"
-          class="flex flex-row justify-between items-center gap-[10px]"
+          class="flex flex-row justify-between items-center gap-[10px] text-black sm:text-[#8987a1]"
           ><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a
         >
       </div>
@@ -56,13 +60,15 @@
 
     <!-- banner section -->
     <section
-      class="flex flex-row mx-[150px] mb-[120px] justify-between items-end"
+      class="flex flex-col-reverse sm:flex-row sm:mx-[150px] mb-[120px] justify-between items-end"
     >
-      <div class="flex flex-col justify-between items-start gap-[13px]">
-        <h1 class="noto text-black text-[65px] font-bold uppercase">
+      <div
+        class="flex flex-col justify-between items-start gap-[13px] mx-4 sm:mx-0 mt-7 sm:mt-0"
+      >
+        <h1 class="noto text-black text-2xl sm:text-[65px] font-bold uppercase">
           Always <span class="text-[#e95a08]">Fresh Flowers</span>
         </h1>
-        <p class="text-[#00000080] inter font-normal text-[22px]">
+        <p class="text-[#00000080] inter font-normal text-sm sm:text-[22px]">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh flowers that are perfect for any occasion.
@@ -74,13 +80,15 @@
 
     <!-- plants section -->
     <section
-      class="mx-[150px] flex flex-col justify-between items-center gap-[49px]"
+      class="mx-4 sm:mx-[150px] flex flex-col justify-between items-center gap-8 sm:gap-[49px]"
     >
       <div class="flex flex-col justify-between items-center gap-4 text-center">
-        <h2 class="text-black noto text-[50px] font-bold">
+        <h2 class="text-black noto text-2xl sm:text-[50px] font-bold">
           <span class="text-[#e95a08]">Our</span> Plants
         </h2>
-        <p class="px-32 text-[#00000080] inter font-normal text-[22px]">
+        <p
+          class="px-0 sm:px-32 text-[#00000080] inter font-normal text-sm sm:text-[22px]"
+        >
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
